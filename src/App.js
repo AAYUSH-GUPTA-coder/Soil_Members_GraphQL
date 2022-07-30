@@ -27,7 +27,7 @@ function App() {
   }, []);
   return (
     <div>
-      <h1>SOIL MEMBERS</h1>
+      <h1>🌱 SOIL MEMBERS 🌱</h1>
       <ul>
         {members.map((member) => (
           <li key={member._id}>{member.discordName}</li>
